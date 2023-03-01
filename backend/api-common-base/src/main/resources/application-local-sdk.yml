@@ -1,0 +1,3 @@
+sdk:
+  serverAccessKey: ${config-server-accesskey}
+

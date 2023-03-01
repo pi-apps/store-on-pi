@@ -1,0 +1,50 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: gateway-client
+  # 环境
+#  profiles:
+#    active: ${config-profiles-active}
+  # jackson时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  redis:
+    host: ${congfig-redis-url}
+    port: ${congfig-redis-url-port}
+    database: 1
+    password: ${config-redis-pwd}
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      enabled: true
+
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+eureka:
+  instance:
+    status-page-url-path: /cert/dict/selectByValue/10000001
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 15 # 每x秒告诉一次中心我活着
+    lease-expiration-duration-in-seconds: 45 # 如果x秒不发送活着,代表我死了
+  client:
+    service-url:
+      defaultZone: ${config-eureka-service-urls}
+    enabled: true # 是否启用注册服务 默认为true, false是不启用
+
+
+hystrix:
+  command:
+    default:  #default全局有效，service id指定应用有效
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 120000 #120秒 断路器超时时间，默认1000ms

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../java_auth/api-algorithm/api-algorithm.iml" filepath="$PROJECT_DIR$/../../java_auth/api-algorithm/api-algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-app/api-app.iml" filepath="$PROJECT_DIR$/../api-app/api-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-baseuser/api-baseuser.iml" filepath="$PROJECT_DIR$/../api-baseuser/api-baseuser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-cert/api-cert.iml" filepath="$PROJECT_DIR$/../api-cert/api-cert.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-cms/api-cms.iml" filepath="$PROJECT_DIR$/../api-cms/api-cms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-common-base/api-common-base.iml" filepath="$PROJECT_DIR$/../api-common-base/api-common-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-common-jwt/api-common-jwt.iml" filepath="$PROJECT_DIR$/../api-common-jwt/api-common-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-common-redis/api-common-redis.iml" filepath="$PROJECT_DIR$/../api-common-redis/api-common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-common-shiro/api-common-shiro.iml" filepath="$PROJECT_DIR$/../api-common-shiro/api-common-shiro.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-eureka/api-eureka.iml" filepath="$PROJECT_DIR$/../api-eureka/api-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-gateway/api-gateway.iml" filepath="$PROJECT_DIR$/../api-gateway/api-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-mer/api-mer.iml" filepath="$PROJECT_DIR$/../api-mer/api-mer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-oilstation/api-oilStation.iml" filepath="$PROJECT_DIR$/../api-oilstation/api-oilStation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/api-parent.iml" filepath="$PROJECT_DIR$/.idea/api-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../java_auth/api-payment/api-payment.iml" filepath="$PROJECT_DIR$/../../java_auth/api-payment/api-payment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-shoppingmall/api-shoppingmall.iml" filepath="$PROJECT_DIR$/../api-shoppingmall/api-shoppingmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-synchronization/api-synchronization.iml" filepath="$PROJECT_DIR$/../api-synchronization/api-synchronization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-third/api-third.iml" filepath="$PROJECT_DIR$/../api-third/api-third.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../api-websocket/api-websocket.iml" filepath="$PROJECT_DIR$/../api-websocket/api-websocket.iml" />
+    </modules>
+  </component>
+</project>

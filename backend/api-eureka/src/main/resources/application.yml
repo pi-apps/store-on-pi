@@ -1,0 +1,32 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: ${config-eureka-server-port}
+
+
+
+#通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server.
+eureka:
+  instance:
+    hostname:  ${config-eureka-hostname}
+    instance-id:  ${config-eureka-id}:${server.port}
+    lease-renewal-interval-in-seconds: 15 # 每x秒告诉一次中心我活着
+    lease-expiration-duration-in-seconds: 45 # 如果x秒不发送活着,代表我死了
+    prefer-ip-address: false
+  client:
+    healthcheck:
+      enabled: true #开启健康检查
+    registry-fetch-interval-seconds: 5
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone:  ${config-eureka-service-urls} # 多个 http://IP:端口/eureka/,http://IP:端口/eureka/,http://IP:端口/eureka/
+  server: #驱逐服务下线时间1分钟 60 * 1000
+    eviction-interval-timer-in-ms: 90000 #90秒后直接踢了  驱逐服务下线时间1分钟 60 * 1000
+    enable-self-preservation: false # 设为false，关闭自我保护
+    use-read-only-response-cache: false #关闭缓存取链接
+    response-cache-update-interval-ms: 15000 #15秒同步一次
+  environment:  PI商店-注册服务-正式生产环境
+  datacenter: PI商店-注册服务-正式生产中转中心

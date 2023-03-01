@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include:
+    - local-redis
+    - local-mysql
+    - local-sdk

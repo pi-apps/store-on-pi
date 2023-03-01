@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-algorithm" />
+        <module name="api-app" />
+        <module name="api-cert" />
+        <module name="api-cms" />
+        <module name="api-common-base" />
+        <module name="api-common-jwt" />
+        <module name="api-common-redis" />
+        <module name="api-common-shiro" />
+        <module name="api-eureka" />
+        <module name="api-gateway" />
+        <module name="api-mer" />
+        <module name="api-oilStation" />
+        <module name="api-payment" />
+        <module name="api-shoppingmall" />
+        <module name="api-synchronization" />
+        <module name="api-third" />
+        <module name="api-websocket" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api-algorithm" target="1.8" />
+      <module name="api-app" target="1.8" />
+      <module name="api-cert" target="1.8" />
+      <module name="api-cms" target="1.8" />
+      <module name="api-common-base" target="1.8" />
+      <module name="api-common-jwt" target="1.8" />
+      <module name="api-common-redis" target="1.8" />
+      <module name="api-common-shiro" target="1.8" />
+      <module name="api-eureka" target="1.8" />
+      <module name="api-gateway" target="1.8" />
+      <module name="api-mer" target="1.8" />
+      <module name="api-oilStation" target="1.8" />
+      <module name="api-parent" target="1.8" />
+      <module name="api-payment" target="1.8" />
+      <module name="api-shoppingmall" target="1.8" />
+      <module name="api-synchronization" target="1.8" />
+      <module name="api-third" target="1.8" />
+      <module name="api-websocket" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-algorithm" options="-parameters" />
+      <module name="api-app" options="-parameters" />
+      <module name="api-cert" options="-parameters" />
+      <module name="api-cms" options="-parameters" />
+      <module name="api-common-base" options="-parameters" />
+      <module name="api-common-jwt" options="-parameters" />
+      <module name="api-common-redis" options="-parameters" />
+      <module name="api-common-shiro" options="-parameters" />
+      <module name="api-eureka" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="api-mer" options="-parameters" />
+      <module name="api-oilStation" options="-parameters" />
+      <module name="api-payment" options="-parameters" />
+      <module name="api-shoppingmall" options="-parameters" />
+      <module name="api-synchronization" options="-parameters" />
+      <module name="api-third" options="-parameters" />
+      <module name="api-websocket" options="-parameters" />
+    </option>
+  </component>
+</project>

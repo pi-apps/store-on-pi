@@ -1,0 +1,9 @@
+redis-data:
+  is-cluster: false #是否集群,true是,false否,当为false时,只取走第一个节点的连接
+    password: ${config-redis-pwd}
+  max-active: 20000
+  max-idle: 200
+  min-idle: 80
+  max-wait-millis: 5000
+  cluster:
+    nodes: ${congfig-redis-cluster-urls}

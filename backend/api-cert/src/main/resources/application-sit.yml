@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include:
+    - sit-redis
+    - sit-mysql
+    - sit-sdk

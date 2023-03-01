@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-baseuser/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-cert/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-cms/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-common-base/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-common-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-common-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-common-shiro/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-mer/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-oilstation/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-shoppingmall/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-synchronization/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-third/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/../../java_auth/api-algorithm/pom.xml" />
+        <option value="$PROJECT_DIR$/../../java_auth/api-payment/pom.xml" />
+        <option value="$PROJECT_DIR$/../api-app/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/classes" />
+  </component>
+</project>

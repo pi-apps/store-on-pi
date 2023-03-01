@@ -1,0 +1,30 @@
+server:
+  port: 8081
+eureka:
+  instance:
+    status-page-url-path: /doc.html
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 15 # 每x秒告诉一次中心我活着
+    lease-expiration-duration-in-seconds: 45 # 如果x秒不发送活着,代表我死了
+  client:
+    service-url:
+      defaultZone: ${config-eureka-service-urls}
+
+spring:
+  application:
+    name: cert-service
+  # 环境
+  profiles:
+    active: ${config-profiles-active}
+  # jackson时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+swagger:
+  enabled: true
+#  basic:
+#    enable: true
+#    username: jdunnhalldus
+#    password: adiem2!dj9#@djn%kd)j
+
+
