@@ -1,0 +1,6 @@
+spring:
+  profiles:
+    include:
+    - pro-redis
+    - pro-mysql
+    - pro-sdk

@@ -1,0 +1,516 @@
+{
+	"easycom": {
+		// npm安装方式
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "%tabBar.index%",
+				"navigationBarBackgroundColor": "#f67112",
+				"navigationStyle": "custom",
+				"navigationBarTextStyle": "white",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "%tabBar.shop%",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/mall/mall",
+			"style": {
+				"navigationBarTitleText": "PI商城",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "%tabBar.user%",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/webview/index",
+			"style": {
+				"navigationBarTitleText": "PI商店",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/xy/xy",
+			"style": {
+				"navigationBarTitleText": "协议",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/sign/sign",
+			"style": {
+				"navigationBarTitleText": "签到",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/signChange/signChange",
+			"style": {
+				"navigationBarTitleText": "积分转换",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/vip/vip",
+			"style": {
+				"navigationBarTitleText": "权益充值",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/goodDetail/goodDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/senckill/senckill",
+			"style": {
+				"navigationBarTitleText": "秒杀专区",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageA/confirm/confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/pay/pay",
+			"style": {
+				"navigationBarTitleText": "支付订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/payDone/payDone",
+			"style": {
+				"navigationBarTitleText": "支付成功",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/signGoodDetail/signGoodDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/signConfirm/confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/address/address",
+			"style": {
+				"navigationBarTitleText": "地址管理",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageA/addAddress/addAddress",
+			"style": {
+				"navigationBarTitleText": "添加地址",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/card/card",
+			"style": {
+				"navigationBarTitleText": "提现方式管理",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		},
+
+		{
+			"path": "pages/packageA/setName/setName",
+			"style": {
+				"navigationBarTitleText": "修改昵称",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/bindUser/bindUser",
+			"style": {
+				"navigationBarTitleText": "绑定关系",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},{
+			"path": "pages/packageA/shopList/shopList",
+			"style": {
+				"navigationBarTitleText": "分类",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/applyShop/index",
+			"style": {
+				"navigationBarTitleText": "门店入住申请",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageB/shopOrder/shopOrder",
+			"style": {
+				"navigationBarTitleText": "商城订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/orderDetail/orderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageB/vipOrder/vipOrder",
+			"style": {
+				"navigationBarTitleText": "权益订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/vipOrderDetail/vipOrderDetail",
+			"style": {
+				"navigationBarTitleText": "权益订单详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageB/storeOrder/storeOrder",
+			"style": {
+				"navigationBarTitleText": "门店订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/storeOrderDetail/storeOrderDetail",
+			"style": {
+				"navigationBarTitleText": "门店订单详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageB/intergerOrder/intergerOrder",
+			"style": {
+				"navigationBarTitleText": "积分订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/interOrderDetail/interOrderDetail",
+			"style": {
+				"navigationBarTitleText": "积分订单详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageB/signList/signList",
+			"style": {
+				"navigationBarTitleText": "我的积分",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/amountList/amountList",
+			"style": {
+				"navigationBarTitleText": "PI积分",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageA/cash/cash",
+			"style": {
+				"navigationBarTitleText": "余额",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageA/cashAmount/cashAmount",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/storeMange/storeMange",
+			"style": {
+				"navigationBarTitleText": "门店管理",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/goodMange/goodMange",
+			"style": {
+				"navigationBarTitleText": "商品管理",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageC/storeOrder/storeOrder",
+			"style": {
+				"navigationBarTitleText": "门店订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageC/scan/scan",
+			"style": {
+				"navigationBarTitleText": "核销",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/addGoods/addGoods",
+			"style": {
+				"navigationBarTitleText": "添加商品",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/goodsSearch/goodsSearch",
+			"style": {
+				"navigationBarTitleText": "商品名称",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/scanInfo/scanInfo",
+			"style": {
+				"navigationBarTitleText": "确认核销",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/scanDone/scanDone",
+			"style": {
+				"navigationBarTitleText": "核销成功",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/shopInfo/shopInfo",
+			"style": {
+				"navigationBarTitleText": "门店详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/shopGoods/shopGoods",
+			"style": {
+				"navigationBarTitleText": "服务介绍",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageC/confirm/confirm",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/goodsList/goodsList",
+			"style": {
+				"navigationBarTitleText": "PI商店",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/useStoreOrder/useStoreOrder",
+			"style": {
+				"navigationBarTitleText": "待使用订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/myFans/myFans",
+			"style": {
+				"navigationBarTitleText": "我的粉丝",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageB/myNextStore/myNextStore",
+			"style": {
+				"navigationBarTitleText": "我的拓店",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageC/storeInfoAdd/storeInfoAdd",
+			"style": {
+				"navigationBarTitleText": "开户信息",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/vipStoreDetail/vipStoreDetail",
+			"style": {
+				"navigationBarTitleText": "权益详情",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/vipStoreList/vipStoreList",
+			"style": {
+				"navigationBarTitleText": "适用门店",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+
+		}, {
+			"path": "pages/packageA/moreIcon/moreIcon",
+			"style": {
+				"navigationBarTitleText": "更多功能",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageB/orderList/orderList",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/packageA/myIncome/myIncome",
+			"style": {
+				"navigationBarTitleText": "我的收益",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/packageA/comeList/comeList",
+			"style": {
+				"navigationBarTitleText": "预期收益",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": true
+			}
+		}, {
+			"path": "pages/packageA/addInfo/addInfo",
+			"style": {
+				"navigationBarTitleText": "位置选择",
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+		}
+
+	],
+	"tabBar": {
+		"borderStyle": "black",
+		"color": "#999999",
+		"selectedColor": "#EC661B",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/image/tabBar/index@2x.png",
+				"selectedIconPath": "static/image/tabBar/index_s@2x.png",
+				"text": "%tabBar.index%"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"iconPath": "static/image/tabBar/tab-service.png",
+				"selectedIconPath": "static/image/tabBar/tab-service-current.png",
+				"text": "%tabBar.shop%"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"iconPath": "static/image/tabBar/user@2x.png",
+				"selectedIconPath": "static/image/tabBar/user_s@2x.png",
+				"text": "%tabBar.user%"
+			}
+		]
+	},
+	"globalStyle": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "%app.name%",
+		"navigationBarTextStyle": "black",
+		"enablePullDownRefresh": false
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	}
+}

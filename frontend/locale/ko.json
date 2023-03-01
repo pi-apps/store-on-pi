@@ -1,0 +1,61 @@
+{
+	"app.name":"PI 상점",
+	"tabBar.index":"첫 페이지",
+	"tabBar.shop":"상점",
+	"tabBar.user":"나의",	
+	"all":{
+		"cancel":"취소",
+		"loading":"loading...",
+		"commonpent":{
+			"address":"위치 선택",
+			"clear":"비우기",
+			"allCity":"All city",
+			"allCity1":"All areas",
+			"allCity2":"All areas"
+		}
+	},
+	"lang":{
+		"title":"언어 전환"
+	},
+	"pages":{
+		"index":{
+			"title":"Pi Project"
+		},
+		"bindUser":{
+			"title":"사용자 바인딩",
+			"placholder":"상위 PI 사용자를 입력하십시오.",
+			"success":"바인딩 성공",
+			"confirm":"바인딩"
+		},
+		"sign":{
+			"title":"출석",
+			"SupSign":"재서명",
+			"h1":"내 포인트",
+			"h2":"출석하여 포인트 획득",
+			"signIn":"연속 출석",
+			"day":"일",
+			"signed":"출석",
+			"btn":"변환 PI 화폐",
+			"today":"오늘",
+			"signOK":"출석 성공",
+			"Point":"포인트",
+			"get":"기쁘게 받아",
+			"toast":"기대해주세요. ~",
+			"toast_sign":"재체크 성공 ~"
+		},
+		"shop":{
+			"input":"매장 이름을 입력하여 검색",
+			"icon":"위치 선택",
+			"buy":"구매",
+			"price":"원가",
+			"shopPrice":"가게에 가서 지불하다"
+		},
+		"user":{
+			"point":"출석 포인트",
+			"amount":"내 잔액",
+			"order":"내 주문",
+			"login":"로그인 클릭",
+			"login1":"로그인하여 추가 서비스 받기"
+		}
+	}
+}

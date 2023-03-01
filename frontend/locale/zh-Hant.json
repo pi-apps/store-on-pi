@@ -1,0 +1,61 @@
+{
+	"app.name":"PI商店",
+	"tabBar.index":"首页",
+	"tabBar.shop":"附近门店",
+	"tabBar.user":"我的",
+	"all":{
+		"cancel":"取消",
+		"loading":"請稍等...",
+		"commonpent":{
+			"address":"選擇位置",
+			"clear":"清空",
+			"allCity":"全部省市",
+			"allCity1":"全部市区",
+			"allCity2":"全部区县"
+		}
+	},
+	"lang":{
+		"title":"切換語言"
+	},
+	"pages":{
+		"index":{
+			"title":"Pi Project"
+		},
+		"bindUser":{
+			"title":"綁定用戶",
+			"placholder":"請輸入上級PI用戶名",
+			"success":"綁定成功",
+			"confirm":"立即綁定"
+		},
+		"sign":{
+			"title":"Sign",
+			"SupSign":"补签",
+			"h1":"My Points",
+			"h2":"Sign in to get points",
+			"signIn":"Continuous check-in",
+			"day":"days",
+			"signed":"Signed in",
+			"btn":"Convert PI currency",
+			"today":"Today",
+			"signOK":"Sign Success",
+			"Point":"Point",
+			"get":"happy to accept",
+			"toast":"Stay Tuned ~",
+			"toast_sign":"Repair Success ~"
+		},
+		"shop":{
+			"input":"輸入門店名稱搜索",
+			"icon":"選擇位置",
+			"buy":"購買",
+			"price":"原價",
+			"shopPrice":"到店支付"
+		},
+		"user":{
+			"point":"签到积分",
+			"amount":"我的余额",
+			"order":"我的订单",
+			"login":"點擊登錄",
+			"login1":"登錄使用更多服務"
+		}
+	}
+}

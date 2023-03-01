@@ -1,0 +1,31 @@
+server:
+  port: 8084
+eureka:
+  instance:
+    status-page-url-path: /doc.html
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 15 # 每x秒告诉一次中心我活着
+    lease-expiration-duration-in-seconds: 45 # 如果x秒不发送活着,代表我死了
+  client:
+    service-url:
+      defaultZone: ${config-eureka-service-urls}
+
+spring:
+  application:
+    name: app-service
+  # 环境
+  profiles:
+    active: ${config-profiles-active}
+  # jackson时间格式化
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+      enabled: true
+swagger:
+  enabled: true
+
+

@@ -1,0 +1,61 @@
+{
+	"app.name":"PI STORE",
+	"tabBar.index":"Home",
+	"tabBar.shop":"Store",
+	"tabBar.user":"User",
+	"all":{
+		"cancel":"cancel",
+		"loading":"loading...",
+		"commonpent":{
+			"address":"Choose Address",
+			"clear":"Clear",
+			"allCity":"All city",
+			"allCity1":"All areas",
+			"allCity2":"All areas"
+		}
+	},
+	"lang":{
+		"title":"Exchange Language"
+	},
+	"pages":{
+		"index":{
+			"title":"Pi Project"
+		},
+		"bindUser":{
+			"title":"Bind User",
+			"placholder":"请输入上级PI用户名",
+			"success":"Bind Success",
+			"confirm":"Binding"
+		},
+		"sign":{
+			"title":"Sign",
+			"SupSign":"Repair",
+			"h1":"My Points",
+			"h2":"Sign in to get points",
+			"signIn":"Continuous check-in",
+			"day":"days",
+			"signed":"Signed",
+			"btn":"Convert PI currency",
+			"today":"Today",
+			"signOK":"Sign Success",
+			"Point":"Point",
+			"get":"Happy To Accept",
+			"toast":"Stay Tuned ~",
+			"toast_sign":"Repair Success ~"
+		},
+		"shop":{
+			"input":"Enter Store Name Search",
+			"icon":"Position",
+			"buy":"BUY",
+			"price":"original price",
+			"shopPrice":"Pay at the store"
+		},
+		"user":{
+			"point":"Sign-in points",
+			"amount":"My balance",
+			"order":"My Order",
+			"login":"Click to log in",
+			"login1":"Sign in to see more"
+		}
+	}
+}

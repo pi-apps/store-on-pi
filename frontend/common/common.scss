@@ -1,0 +1,483 @@
+/**app.wxss**/
+.isCry{
+	filter: grayscale(100%);
+}
+page {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  color: $font-color3;
+}
+.required{color: red;font-size: 22rpx;}
+.container {
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+.container.overHide {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.hr {
+  width: 100%;
+  height: 1rpx;
+  background-color: #E6E6E6;
+}
+
+.textLineThrough {
+  text-decoration: line-through;
+}
+
+.bgf {
+  background-color: #fff;
+}
+
+.cf {
+  color: #fff;
+}
+
+.fz10 {
+  font-size: 20rpx;
+}
+
+.fz12 {
+  font-size: 24rpx;
+}
+
+.fz14 {
+  font-size: 28rpx;
+}
+
+.fz16 {
+  font-size: 32rpx;
+}
+
+.fz18 {
+  font-size: 36rpx;
+}
+
+.fz20 {
+  font-size: 40rpx;
+}
+
+.fz22 {
+  font-size: 44rpx;
+}
+
+.fz24 {
+  font-size: 48rpx;
+}
+
+/*  */
+.mt4 {
+  margin-top: 8rpx;
+}
+
+.mb4 {
+  margin-bottom: 8rpx;
+}
+
+.ml4 {
+  margin-left: 8rpx;
+}
+
+.mr4 {
+  margin-right: 8rpx;
+}
+
+.mt8 {
+  margin-top: 16rpx;
+}
+
+.mb8 {
+  margin-bottom: 16rpx;
+}
+
+.ml8 {
+  margin-left: 16rpx;
+}
+
+.mr8 {
+  margin-right: 16rpx;
+}
+
+.mt10 {
+  margin-top: 20rpx;
+}
+
+.mb10 {
+  margin-bottom: 20rpx;
+}
+
+.ml10 {
+  margin-left: 20rpx;
+}
+
+.mr10 {
+  margin-right: 20rpx;
+}
+
+.mt12 {
+  margin-top: 24rpx;
+}
+
+.mb12 {
+  margin-bottom: 24rpx;
+}
+
+.ml12 {
+  margin-left: 24rpx;
+}
+
+.mr12 {
+  margin-right: 24rpx;
+}
+
+.mt16 {
+  margin-top: 32rpx;
+}
+
+.mb16 {
+  margin-bottom: 32rpx;
+}
+
+.ml16 {
+  margin-left: 32rpx;
+}
+
+.mr16 {
+  margin-right: 32rpx;
+}
+
+.mt20 {
+  margin-top: 40rpx;
+}
+
+.mb20 {
+  margin-bottom: 40rpx;
+}
+
+.ml20 {
+  margin-left: 40rpx;
+}
+
+.mr20 {
+  margin-right: 40rpx;
+}
+
+.mt24 {
+  margin-top: 48rpx;
+}
+
+.mb24 {
+  margin-bottom: 48rpx;
+}
+
+.ml24 {
+  margin-left: 48rpx;
+}
+
+.mr24 {
+  margin-right: 48rpx;
+}
+
+.mt32 {
+  margin-top: 64rpx;
+}
+
+.mb32 {
+  margin-bottom: 64rpx;
+}
+
+.ml32 {
+  margin-left: 64rpx;
+}
+
+.mr32 {
+  margin-right: 64rpx;
+}
+
+.w100 {
+  width: 100%;
+}
+
+.h100 {
+  height: 100%;
+}
+
+.allImg {
+  width: 100%;
+  height: 100%;
+}
+.relative {
+  position: relative;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.auto {
+  margin: 0 auto
+}
+
+/* flex */
+.f {
+  display: flex;
+}
+
+.flex {
+  display: flex;
+}
+
+.f_warp {
+  flex-wrap: wrap;
+}
+
+.f_start {
+  justify-content: flex-start;
+}
+
+.f_end {
+  justify-content: flex-end;
+}
+
+.f_align {
+  justify-content: space-between;
+}
+.f_around {
+  justify-content: space-around;
+}
+
+.f_center {
+  justify-content: center;
+}
+
+.f_align_center {
+  align-items: center;
+}
+
+.f_align_start {
+  align-items: flex-start;
+}
+
+.f_align_end {
+  align-items: flex-end;
+}
+
+.f_column {
+  flex-direction: column;
+}
+
+.f_shrink0 {
+  flex-shrink: 0;
+}
+
+.f_baseline{
+  align-self: baseline;
+}
+
+.autoImg {
+  width: 100%;
+  height: 100%;
+}
+
+.f_c_a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.f_c_b {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.f_c_c {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f_c_e {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.f_c_s {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.f_s_c {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.f_s_a {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.f_e_c {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* 其他常用css  */
+.placeStyle{
+  color: #999!important;
+}
+.bold {
+  font-weight: bold;
+}
+
+.sticky0 {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.fb {
+  font-weight: bold;
+}
+
+.overfont {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.overfont-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.overfont-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  white-space: normal;
+}
+
+.moreList image {
+  width: 189rpx;
+  height: 51rpx;
+}
+
+.bb {
+  border-bottom: 1px solid #E6E6E6;
+}
+
+/* warp */
+.-bgf{background-color: #fff;}
+.-bgc{background-color: #f67112;}
+.-price{color: #e71c19;}
+.-warp{
+  padding: 20rpx;
+}
+.-warp30{
+  padding: 30rpx;
+}
+.-warp20-30{
+  padding: 20rpx 30rpx;
+}
+.-warp30-20{
+  padding: 30rpx 20rpx;
+}
+.-box{
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .12);
+  border-radius: 20rpx;
+}
+.-copy{
+  font-size: 20rpx;
+  color: #999;
+  background-color: rgba(0,0,0,0.1);
+  padding: 4rpx 10rpx;
+  height: 30rpx;
+  border-radius: 6rpx;
+}
+
+.-status{
+	height: var(--status-bar-height);
+}
+
+/* 图片大小 */
+.userHeaad{width: 160rpx;height: 180rpx;border-radius: 50%;}
+.killImge{width: 100%;height: 200rpx;}
+.killImage{width: 100%;height: 200rpx;}
+.payico{width: 40rpx;height: 40rpx;}
+/*  */
+.serviceWarp{
+  background-color: #fff;
+  position: fixed;
+  right: 30rpx;
+  bottom: 140rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 20rpx;
+  color: #f67112;
+  z-index: 10000;
+
+}
+
+.-overHide{
+	height: 100vh;
+	overflow: hidden;
+}
+
+
+
+
+/* 猜你喜欢样式 商品列表样式 */
+
+.good_class_list {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+	.good_col_left{
+		width: 50%;
+		box-sizing: border-box;
+		padding-right: 10rpx;
+	}
+	.good_col_right{
+		width: 50%;
+		box-sizing: border-box;
+		padding-left: 10rpx;
+	}
+	.good_warps {
+		border-radius: 12rpx;
+		padding: 24rpx 28rpx 0;
+		box-sizing: border-box;
+		margin-bottom: 20rpx;
+		.good_b_text {
+			padding: 20rpx 0;
+			.money {
+				color: #F85532;
+			}
+			.textLineThrough {
+				color: #DFDFDF;
+			}
+			.price_sign {
+				color: #FFF;
+				font-size: 22rpx;
+				box-sizing: border-box;
+				padding-top: 6rpx;
+				width: 200rpx;
+				height: 46rpx;
+				background: url('~@/static/image/mall/jifendikou@2x.png') no-repeat center;
+				background-size: 100%;
+			}
+		}
+	}
+}

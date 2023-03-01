@@ -1,0 +1,20 @@
+{
+  "name": "tt_car_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/zhang-jiaxin/tt_car_app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dayjs": "^1.11.3",
+    "uview-ui": "2.0.34",
+    "vue-i18n": "^9.2.2"
+  }
+}
